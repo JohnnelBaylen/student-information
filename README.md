@@ -30,26 +30,21 @@ This project is a simple Information Form built using PHP. It allows users to in
 
 ## File Structure
 ```
- student-info-form
- ├── index.php       # Main form page
- ├── info.php        # Form submission handler
- ├── style.css       # Styling for the login form
- ├── info.css        # Styling for the info form
- ├── README.md       # Documentation
+student-info-system/
+├── assets/
+│   └── icon.png
+├── src/
+│   ├── index.php         # Main form page
+│   ├── review.php        # Review form page
+│   ├── thankyou.php      # Thank you/confirmation page
+├── styles/
+│   ├── info.css          # Styles for the information form
+│   ├── style.css         # Styles for login or base layout
+│   └── thankyou.css      # Styles for thank you page
+├── README.md             # Project documentation
  
 ```
 
-## Usage
-- Open the form in your browser.
-- Fill in the required details.
-- Submit the form to process and display the entered information.
-
-## Security Measures
-- Uses basic PHP validation to prevent incorrect inputs.
-- Sanitization of user inputs.
-
-## License
-This project is licensed under the MIT License.
 
 
 
