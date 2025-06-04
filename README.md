@@ -32,16 +32,17 @@ This project is a simple Information Form built using PHP. It allows users to in
 ```
 student-info-system/
 ├── public/
-│   └── icon.png
+│ └── icon.png             # Project icon
 ├── src/
-│   ├── index.php         # Main form page
-│   ├── review.php        # Review form page
-│   ├── thankyou.php      # Thank you/confirmation page
-├── styles/
-│   ├── info.css          # Styles for the information form
-│   ├── style.css         # Styles for login or base layout
-│   └── thankyou.css      # Styles for thank you page
-├── README.md             # Project documentation
+│ ├── components/
+│ │ ├── index.php          # Main form page
+│ │ ├── review.php         # Review form page
+│ │ └── thankyou.php       # Thank you/confirmation page
+│ └── styles/
+│ ├── info.css             # Styles for the information form
+│ ├── style.css            # Styles for login or base layout
+│ └── thankyou.css         # Styles for thank you page
+└── README.md              # Project documentation
  
 ```
 
