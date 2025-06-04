@@ -31,7 +31,7 @@ This project is a simple Information Form built using PHP. It allows users to in
 ## File Structure
 ```
 student-info-system/
-├── assets/
+├── public/
 │   └── icon.png
 ├── src/
 │   ├── index.php         # Main form page
