@@ -22,11 +22,7 @@ This project is a simple Information Form built using PHP. It allows users to in
    ```sh
    cd information-form
    ```
-3. Start the PHP server:
-   ```sh
-   php -S localhost:8000
-   ```
-4. Open `http://localhost:8000` in your browser.
+3. open your xampp or laragon
 
 ## File Structure
 ```
